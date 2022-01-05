@@ -22,11 +22,7 @@ import testBase.DriverFactory;
 import testBase.ExtentFactory;
 import testBase.ExtentReportNG;
 
-/**
- * @author: Prakash Narkhede
- * @Youtube: https://www.youtube.com/automationtalks
- * @LinkedIn: https://www.linkedin.com/in/panarkhede89/
- */
+
 public class ListenersImplementation implements ITestListener{
 	JiraOperations jiraOps = new JiraOperations();
 	static ExtentReports report;
